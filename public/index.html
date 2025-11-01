@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HIMABIS - Himpunan Mahasiswa Bisnis</title>
+    <meta name="description" content="Wadah pengembangan potensi mahasiswa bisnis untuk menjadi pemimpin masa depan">
+    <meta name="keywords" content="himabis, bisnis, mahasiswa, organisasi, kampus">
+    <meta name="author" content="Vynaa Valerie">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header id="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <div class="logo-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <div class="logo-text" id="org-name">HIMABIS</div>
+                </div>
+                <nav class="nav-links">
+                    <a href="#home">Beranda</a>
+                    <a href="#about">Tentang</a>
+                    <a href="#pengurus">Pengurus</a>
+                    <a href="#kegiatan">Kegiatan</a>
+                    <a href="#kontak">Kontak</a>
+                </nav>
+                <div class="nav-cta">
+                    <a href="#kontak" class="btn btn-outline">Hubungi Kami</a>
+                    <a href="#about" class="btn btn-primary">Bergabung</a>
+                </div>
+                <div class="mobile-menu">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Sidebar -->
+    <div class="sidebar" id="sidebar">
+        <button class="sidebar-close" id="sidebarClose">
+            <i class="fas fa-times"></i>
+        </button>
+        <div class="sidebar-links">
+            <a href="#home">Beranda</a>
+            <a href="#about">Tentang</a>
+            <a href="#pengurus">Pengurus</a>
+            <a href="#kegiatan">Kegiatan</a>
+            <a href="#kontak">Kontak</a>
+        </div>
+        <div class="sidebar-cta">
+            <a href="#kontak" class="btn btn-outline">Hubungi Kami</a>
+            <a href="#about" class="btn btn-primary">Bergabung</a>
+        </div>
+    </div>
+
+    <!-- Overlay -->
+    <div class="overlay" id="overlay"></div>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <div class="hero-badge">
+                        <i class="fas fa-rocket"></i> <span id="org-full-name">Himpunan Mahasiswa Bisnis</span>
+                    </div>
+                    <h1 class="hero-title" id="hero-title">Membangun <span>Pemimpin Bisnis</span> Masa Depan</h1>
+                    <p class="hero-description" id="hero-description">HIMABIS adalah wadah pengembangan potensi mahasiswa bisnis untuk menjadi pemimpin yang berintegritas, inovatif, dan berdaya saing global.</p>
+                    <div class="hero-actions">
+                        <a href="#about" class="btn btn-primary">Jelajahi Lebih Lanjut</a>
+                        <a href="#kegiatan" class="btn btn-outline">Lihat Kegiatan <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                    <div class="hero-stats" id="hero-stats">
+                        <!-- Stats akan diisi oleh JavaScript -->
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <div class="floating-cards" id="floating-cards">
+                        <!-- Floating cards akan diisi oleh JavaScript -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-subtitle">Tentang Kami</div>
+                <h2 class="section-title">Mengenal HIMABIS Lebih Dekat</h2>
+                <p class="section-description">Himpunan Mahasiswa Bisnis merupakan organisasi mahasiswa yang berfokus pada pengembangan kemampuan bisnis, kewirausahaan, dan kepemimpinan.</p>
+            </div>
+            <div class="about-content">
+                <div class="about-visual">
+                    <div class="about-image">
+                        <img src="https://a.top4top.io/p_3592a6g7d1.jpg" alt="Kegiatan HIMABIS" id="about-image">
+                    </div>
+                    <div class="about-badge">
+                        <div class="stat-number" id="experience-years">5+</div>
+                        <div class="stat-label">Tahun Pengalaman</div>
+                    </div>
+                </div>
+                <div class="about-text">
+                    <h3 id="about-title">Visi & Misi HIMABIS</h3>
+                    <div id="about-description">
+                        <!-- Deskripsi tentang akan diisi oleh JavaScript -->
+                    </div>
+
+                    <div class="about-features" id="about-features">
+                        <!-- Fitur about akan diisi oleh JavaScript -->
+                    </div>
+
+                    <a href="#kontak" class="btn btn-primary" style="margin-top: 20px;">Bergabung Dengan Kami</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pengurus Section -->
+    <section class="pengurus" id="pengurus">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-subtitle">Struktur Kepengurusan</div>
+                <h2 class="section-title">Tim Pengurus HIMABIS</h2>
+                <p class="section-description">Dikenal oleh tim pengurus yang berdedikasi dan berpengalaman dalam mengelola organisasi serta berbagai kegiatan.</p>
+            </div>
+            <div class="pengurus-grid" id="pengurus-grid">
+                <!-- Data pengurus akan diisi oleh JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Kegiatan Section -->
+    <section id="kegiatan">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-subtitle">Galeri Kegiatan</div>
+                <h2 class="section-title">Kegiatan & Acara HIMABIS</h2>
+                <p class="section-description">Berbagai kegiatan yang diselenggarakan untuk mengembangkan potensi mahasiswa dalam bidang bisnis dan kewirausahaan.</p>
+            </div>
+            <div class="kegiatan-slider">
+                <div class="kegiatan-slides" id="kegiatan-slides">
+                    <!-- Slides kegiatan akan diisi oleh JavaScript -->
+                </div>
+                <button class="slide-nav prev"><i class="fas fa-chevron-left"></i></button>
+                <button class="slide-nav next"><i class="fas fa-chevron-right"></i></button>
+                <div class="slide-indicators" id="slide-indicators">
+                    <!-- Indicators akan diisi oleh JavaScript -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Kontak Section -->
+    <section class="kontak" id="kontak">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-subtitle">Hubungi Kami</div>
+                <h2 class="section-title">Terhubung Dengan HIMABIS</h2>
+                <p class="section-description">Jangan ragu untuk menghubungi kami untuk informasi lebih lanjut tentang kegiatan dan program HIMABIS.</p>
+            </div>
+            <div class="kontak-content">
+                <div class="kontak-info">
+                    <h3>Informasi Kontak</h3>
+                    <p>Kami siap membantu Anda dengan segala pertanyaan mengenai HIMABIS dan kegiatannya.</p>
+
+                    <div class="kontak-item">
+                        <div class="kontak-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="kontak-details">
+                            <h4>Alamat</h4>
+                            <p id="contact-address">Gedung Student Center Lt. 3, Kampus Universitas</p>
+                        </div>
+                    </div>
+
+                    <div class="kontak-item">
+                        <div class="kontak-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="kontak-details">
+                            <h4>Email</h4>
+                            <p id="contact-email">himabis@univ.ac.id</p>
+                        </div>
+                    </div>
+
+                    <div class="kontak-item">
+                        <div class="kontak-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="kontak-details">
+                            <h4>Telepon</h4>
+                            <p id="contact-phone">+62 812 3456 7890</p>
+                        </div>
+                    </div>
+
+                    <h3 style="margin-top: 30px;">Ikuti Kami</h3>
+                    <div class="social-links" id="social-links">
+                        <!-- Social links akan diisi oleh JavaScript -->
+                    </div>
+                </div>
+
+                <div class="kontak-form">
+                    <h3>Kirim Pesan</h3>
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Nama Lengkap</label>
+                            <input type="text" id="name" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subjek</label>
+                            <input type="text" id="subject" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Pesan</label>
+                            <textarea id="message" class="form-control" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary" style="width: 100%;">Kirim Pesan <i class="fas fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <div class="logo-footer">
+                        <div class="logo-icon">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <div class="logo-text" id="footer-org-name">HIMABIS</div>
+                    </div>
+                    <p class="footer-desc" id="footer-desc">Himpunan Mahasiswa Bisnis - Wadah pengembangan potensi mahasiswa bisnis untuk menjadi pemimpin masa depan yang berintegritas dan inovatif.</p>
+                    <div class="social-links" id="footer-social-links">
+                        <!-- Social links footer akan diisi oleh JavaScript -->
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <ul>
+                        <h3>Tautan Cepat</h3>
+                        <li><a href="#home">Beranda</a></li>
+                        <li><a href="#about">Tentang</a></li>
+                        <li><a href="#pengurus">Pengurus</a></li>
+                        <li><a href="#kegiatan">Kegiatan</a></li>
+                        <li><a href="#kontak">Kontak</a></li>
+                    </ul>
+                    <ul>
+                        <h3>Program</h3>
+                        <li><a href="#">Seminar & Workshop</a></li>
+                        <li><a href="#">Kompetisi Bisnis</a></li>
+                        <li><a href="#">Program Magang</a></li>
+                        <li><a href="#">Networking Event</a></li>
+                        <li><a href="#">Studi Banding</a></li>
+                    </ul>
+                    <ul>
+                        <h3>Sumber Daya</h3>
+                        <li><a href="#">Blog & Artikel</a></li>
+                        <li><a href="#">Galeri Foto</a></li>
+                        <li><a href="#">Dokumen</a></li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Kebijakan Privasi</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2023 <span id="copyright-org-name">HIMABIS</span> - Himpunan Mahasiswa Bisnis. All rights reserved.</p>
+                <div class="made-by">
+                    <i class="fas fa-heart"></i> Made with love by <span id="developer-name">Vynaa Valerie</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Load JavaScript -->
+    <script src="config.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
