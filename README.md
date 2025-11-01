@@ -19,20 +19,7 @@ Import project di Vercel dari GitHub
 
 Atau drag & drop folder ke Vercel dashboard
 
-📁 Struktur Project
-text
-/himabis-website/
-├── public/
-│   ├── index.html          # File HTML utama
-│   ├── style.css           # Stylesheet
-│   ├── script.js           # JavaScript logic
-│   ├── config.js           # Konfigurasi website (EDIT FILE INI!)
-│   └── assets/             # Folder untuk gambar & file static
-├── server.js               # Server untuk Vercel
-├── vercel.json             # Konfigurasi Vercel
-├── package.json            # Dependencies
-└── README.md              # Dokumentasi
-⚙️ Cara Edit Website
+**⚙️ Cara Edit Website**
 1. Edit Data Organisasi
 Buka file public/config.js dan edit bagian:
 
